@@ -4,7 +4,23 @@
 
 #include <stdio.h>
 
+
+
 int main() {
+
+  int mark01, mark02;
+  float average;
+  printf("intput First mark: ");
+  scanf("%d",&mark01);
+  printf("intput second mark: ");
+  scanf("%d",&mark02);
+
+  
+  average=(mark01+mark02)/2.0;
+  printf("average of the two marks=%.2f",average);
+  
+  
+  
   
   return 0;
 }
